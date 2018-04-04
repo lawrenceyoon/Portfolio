@@ -93,3 +93,18 @@ header {
   top: 50%;
   text-align: center;
 }
+
+/* ----- About ----- */
+.about {
+  border: 1px solid red;
+}
+
+.about img {
+  height: 350px;
+  width: 350px;
+  border-radius: 50%;
+}
+
+/* ----- Projects ----- */
+
+/* ----- Contact ----- */
