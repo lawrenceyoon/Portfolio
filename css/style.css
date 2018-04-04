@@ -15,11 +15,21 @@ html {
 
 /* ----- Reusable ----- */
 .row {
-  border: 1px solid black;
   max-width: 1140px;
   margin: 0 auto;
 }
 
+/* Headings */
+h1 {
+  margin: 0;
+  color: #3b5998;
+  font-size: 240%;
+  font-weight: 400;
+  letter-spacing: 0.4px;
+  word-spacing: 3px;
+}
+
+/* ----- Header ----- */
 header {
   background-image: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.2)), url(../imgs/backpic.jpg);
   background-size: cover;
@@ -28,18 +38,58 @@ header {
   height: 100vh;
 }
 
+/* Navbar */
+.navbar-brand {
+  float: left;
+  margin-top: 20px;
+  height: 50px;
+}
+
+.navbar-brand a:link,
+.navbar-brand a:visited {
+  color: #3b5998;
+  font-size: 140%;
+  font-weight: 400;
+  text-decoration: none;
+  transition: color 0.2s;
+}
+
+.navbar-brand a:hover,
+.navbar-brand a:active {
+  color: #444;
+}
+
+.main-nav {
+  float: right;
+  list-style: none;
+  margin-top: 25px;
+}
+
+.main-nav li {
+  display: inline-block;
+  margin-left: 40px;
+}
+
+.main-nav li a:link,
+.main-nav li a:visited {
+  padding: 8px 0;
+  color: #3b5998;
+  font-size: 120%;
+  font-weight: 400;
+  text-decoration: none;
+  border-bottom: 2px solid transparent;
+  transition: border-bottom 0.2s;
+}
+
+.main-nav li a:hover,
+.main-nav li a:active {
+  border-bottom: 2px solid #444;
+}
+
+/* Title */
 .hero-text-box {
   width: 1140px;
   position: absolute;
   top: 50%;
   text-align: center;
-}
-
-h1 {
-  margin: 0;
-  color: #3b5998;
-  font-size: 240%;
-  font-weight: 400;
-  letter-spacing: 0.4px;
-  word-spacing: 3px;
 }
