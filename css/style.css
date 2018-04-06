@@ -49,6 +49,10 @@ h2 {
   margin-bottom: 30px;
 }
 
+h3 {
+
+}
+
 h2:after {
   display: block;
   height: 2px;
@@ -157,6 +161,9 @@ header {
 }
 
 /* ----- Projects ----- */
+.projects {
+  text-align: center;
+}
 
 
 /* ----- Contact ----- */
