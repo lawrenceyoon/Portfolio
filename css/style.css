@@ -47,7 +47,6 @@ h2 {
 
 h3 {
   font-size: 150%;
-  margin-bottom: 20px;
   letter-spacing: 0.2px;
   word-spacing: 1px;
   font-weight: 400;
@@ -112,12 +111,19 @@ p {
 }
 
 /* Icons */
+i {
+  color: #555;
+  margin: 20px 15px 20px 0;
+  display: inline-block;
+}
+
+i:hover,
+i:active {
+  color: #444;
+}
+
 .icon-big {
   font-size: 350%;
-  display: inline-block;
-  color: black;
-  margin-bottom: 20px;
-  margin-right: 20px;
 }
 
 /* ----- Header ----- */
@@ -205,15 +211,15 @@ header {
 }
 
 /* ----- Projects ----- */
-.projects {
+.colored {
   background-color: #f4f4f4;
 }
 
-.colored {
+.project {
   background-color: white;
   padding: 20px;
+  margin-bottom: 50px;
 }
-
 
 .small-text {
   width: 90%;
@@ -230,6 +236,7 @@ header {
   width: 100%;
 }
 
-
-
 /* ----- Contact ----- */
+.contact {
+  text-align: center;
+}
