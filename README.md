@@ -1,6 +1,6 @@
 # My Portfolio
 
-Made using HTML, CSS, and jQuery
+Made using HTML, CSS, and JavaScript
 
 My responsive portfolio was made to showcase HTML, CSS & jQuery skills without using any frameworks and making a site responsive using only a simple grid system (http://www.responsivegridsystem.com/).
 
