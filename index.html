@@ -66,7 +66,6 @@
         <h2>Projects</h2>
       </div>
 
-
       <div class="row project">
         <div class="col span-1-of-2">
           <h3>My Portfolio</h3>
@@ -75,7 +74,6 @@
           <i class="devicon-javascript-plain icon-big"></i>
           <p class="small-text">This portfolio was made using purely HTML, CSS, and JavaScript (no other frameworks/libraries). What better way to demonstrate the core fundamentals than making my portfolio from them? This shows my understand and implementation of the core fundamentals.</p>
         </div>
-
         <div class="col span-1-of-2">
           <div class="port-pics">
             <img src="./imgs/portfoliopic.jpg" alt="Portfolio" />
@@ -83,7 +81,6 @@
           </div>
         </div>
       </div>
-
 
       <div class="row project">
         <div class="col span-1-of-2">
@@ -94,7 +91,6 @@
           <i class="devicon-jquery-plain-wordmark icon-big"></i>
           <p class="small-text">Building this example website was a great learning experience, and demonstrates I can implement different tools because I understand the core fundamentals. I used Bootstrap as my front end framework, SASS preprocessor to make my CSS clean, and jQuery as my JS library. I take everything as a learning experience and hope on the job, I can learn to adapt and use just as I have done with this example.</p>
         </div>
-
         <div class="col span-1-of-2">
           <div class="port-pics">
             <img src="./imgs/todolist.jpg" alt="Change this to a website one later" />
@@ -103,7 +99,6 @@
           </div>
         </div>
       </div>
-
 
       <div class="row project">
         <div class="col span-1-of-2">
@@ -114,7 +109,6 @@
           <i class="devicon-typescript-plain icon-big"></i>
           <p class="small-text">This is a current project I'm working on! It's a dynamic single site that does blah blah blah. I'm currently working on it, but you can view the source code and see where I'm at! I know learning JS frameworks such as Angular is important, and am currently in the process of making an application!</p>
         </div>
-
         <div class="col span-1-of-2">
           <div class="port-pics">
             <img src="./imgs/todolist.jpg" alt="Change this to something else" />
@@ -125,23 +119,55 @@
       </div>
     </section>
 
+    <!-- Contact -->
     <section class="contact">
       <div class="row">
         <h2>Contact Me</h2>
         <p>If you want to view my resume or want to talk, contact me through email! Send me a message with your name, and I'll reply as soon as possible.</p>
       </div>
 
+      <br />
+
       <div class="row">
         <form class="contact-form" action="https://formspree.io/yoonlawrence@yahoo.com" method="POST">
-          <input type="text" name="name" placeholder="Your name" />
-          <br />
-          <input type="email" name="email" placeholder="Your email" />
-          <br />
-          <textarea name="message" placeholder="Your message"></textarea>
-          <button type="submit">Send</button>
-        </form>
+          <div class="row">
+            <div class="col span-1-of-3">
+              <label for="name">Name</label>
+            </div>
+            <div class="col span-2-of-3">
+              <input type="text" name="name" id="name" placeholder="Your name" required />
+            </div>
+          </div>
 
+          <div class="row">
+            <div class="col span-1-of-3">
+              <label for="email">Email</label>
+            </div>
+            <div class="col span-2-of-3">
+              <input type="email" name="email" id="email" placeholder="Your email" required />
+            </div>
+          </div>
+
+          <div class="row">
+            <div class="col span-1-of-3">
+              <label for="message">Message</label>
+            </div>
+            <div class="col span-2-of-3">
+              <textarea name="message" id="message" placeholder="Your message"></textarea>
+            </div>
+          </div>
+
+          <div class="row">
+            <div class="col span-1-of-3">
+              <label>&nbsp;</label>
+            </div>
+            <div class="col span-2-of-3">
+              <input type="submit" value="Send" />
+            </div>
+          </div>
+        </form>
       </div>
+
     </section>
 
   </body>

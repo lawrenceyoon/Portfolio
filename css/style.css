@@ -24,7 +24,7 @@ section {
 }
 
 /* Headings */
-h1, h2 {
+h1, h2, h3 {
   color: #3b5998;
 }
 
@@ -70,7 +70,8 @@ p {
 
 /* Buttons */
 .btn:link,
-.btn:visited {
+.btn:visited,
+input[type=submit] {
   display: inline-block;
   padding: 10px 30px;
   margin-top: 5px;
@@ -194,6 +195,10 @@ header {
 }
 
 /* ----- About ----- */
+.about {
+  text-align: center;
+}
+
 .profilepic {
   width: 350px;
   height: 350px;
@@ -237,6 +242,37 @@ header {
 }
 
 /* ----- Contact ----- */
-.contact {
-  text-align: center;
+.contact-form {
+  width: 60%;
+  margin: 0 auto;
+}
+
+input[type=text],
+input[type=email],
+textarea {
+  width: 100%;
+  padding: 10px;
+  border-radius: 3px;
+  border: 1px solid #ccc;
+}
+
+textarea {
+  height: 100px;
+}
+
+input[type=submit] {
+  border: 1px solid #3b5998;
+  color: #fff;
+  background-color: #3b5998;
+  margin-right: 10px;
+  font-weight: 300;
+}
+
+input[type=submit]:hover,
+input[type=submit]:active {
+  background-color: #324b80;
+}
+
+*:focus {
+  outline: none;
 }
