@@ -19,8 +19,8 @@ html {
   margin: 0 auto;
 }
 
-section {
-  padding: 60px 0;
+section, footer {
+  padding: 80px 0;
 }
 
 /* Headings */
@@ -66,6 +66,12 @@ p {
   line-height: 145%;
   font-size: 115%;
   word-spacing: 1px;
+}
+
+.small-text {
+  width: 90%;
+  font-size: 90%;
+  word-spacing: 0.5px;
 }
 
 /* Buttons */
@@ -116,6 +122,7 @@ i {
   color: #555;
   margin: 20px 15px 20px 0;
   display: inline-block;
+  transition: color 0.2s;
 }
 
 i:hover,
@@ -127,12 +134,17 @@ i:active {
   font-size: 350%;
 }
 
+.icon-medium {
+  font-size: 250%;
+}
+
 /* ----- Header ----- */
 header {
   background-image: url(../imgs/backpic.jpg);
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
+  background-attachment: fixed;
   height: 100vh;
 }
 
@@ -212,11 +224,12 @@ header {
 }
 
 .about h2 {
-  margin-top: 30px;
+  margin-top: 50px;
+
 }
 
 /* ----- Projects ----- */
-.colored {
+.project-group {
   background-color: #f4f4f4;
 }
 
@@ -224,12 +237,6 @@ header {
   background-color: white;
   padding: 20px;
   margin-bottom: 50px;
-}
-
-.small-text {
-  width: 90%;
-  font-size: 90%;
-  word-spacing: 0.5px;
 }
 
 .port-pics {
@@ -275,4 +282,27 @@ input[type=submit]:active {
 
 *:focus {
   outline: none;
+}
+
+/* ----- Footer ----- */
+.links {
+  text-align: center;
+  background-color: #f4f4f4;
+}
+
+.links .small-text {
+  margin: 0 auto;
+}
+
+.specialed .icon-medium {
+  margin-right: 3%;
+}
+
+.github-icon {
+
+}
+
+.linkedin-icon:hover,
+.linkedin-icon:active {
+  color: #0077b5;
 }
