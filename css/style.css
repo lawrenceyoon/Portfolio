@@ -120,7 +120,6 @@ input[type=submit] {
 /* Icons */
 i {
   color: #555;
-  margin: 20px 15px 20px 0;
   display: inline-block;
   transition: color 0.2s;
 }
@@ -239,6 +238,10 @@ header {
   margin-bottom: 50px;
 }
 
+.project i {
+  margin: 20px 15px 20px 0;
+}
+
 .port-pics {
   width: 100%;
   overflow: hidden;
@@ -285,24 +288,24 @@ input[type=submit]:active {
 }
 
 /* ----- Footer ----- */
-.links {
+.footer {
   text-align: center;
   background-color: #f4f4f4;
 }
 
-.links .small-text {
-  margin: 0 auto;
+.footer .small-text {
+  margin: 0 auto 20px auto;
 }
 
-.specialed .icon-medium {
+.links a {
+  text-decoration: none;
+}
+
+.icon-margin {
   margin-right: 3%;
+  margin-left: 3%;
 }
 
-.github-icon {
-
-}
-
-.linkedin-icon:hover,
-.linkedin-icon:active {
-  color: #0077b5;
+.blue-icon {
+  color: #3b5998;
 }
