@@ -17,8 +17,8 @@
     <!-- CSS -->
     <link rel="stylesheet" type="text/css" href="./css/normalize.css" />
     <link rel="stylesheet" type="text/css" href="./css/grid.css" />
-    <link rel="stylesheet" type="text/css" href="./css/queries.css" />
     <link rel="stylesheet" type="text/css" href="./css/style.css" />
+    <link rel="stylesheet" type="text/css" href="./css/queries.css" />
 
     <!-- Icons -->
     <link rel="stylesheet" href="https://cdn.rawgit.com/konpa/devicon/df6431e323547add1b4cf45992913f15286456d3/devicon.min.css" />
@@ -27,16 +27,16 @@
   <body>
 
     <!-- Header -->
-    <header>
+    <header id="top-of-page">
       <nav>
         <div class="row">
           <div class="navbar-brand">
-            <a href="#">Lawrence</a>
+            <a href="#top-of-page">Lawrence</a>
           </div>
           <ul class="main-nav">
-            <li><a href="#">About</a></li>
-            <li><a href="#">Projects</a></li>
-            <li><a href="#">Contact</a></li>
+            <li><a href="#about-id">About</a></li>
+            <li><a href="#project-id">Projects</a></li>
+            <li><a href="#contact-id">Contact</a></li>
           </ul>
         </div>
       </nav>
@@ -47,7 +47,7 @@
     </header>
 
     <!-- About Me -->
-    <section class="about">
+    <section class="about" id="about-id">
       <div class="row">
         <div class="profilepic">
           <img src="./imgs/mainpic.jpg" />
@@ -63,7 +63,7 @@
     </section>
 
     <!-- Projects -->
-    <section class="project-group">
+    <section class="project-group" id="project-id">
       <div class="row">
         <h2>Projects</h2>
       </div>
@@ -75,7 +75,7 @@
             <i class="devicon-html5-plain-wordmark icon-big"></i>
             <i class="devicon-css3-plain-wordmark icon-big"></i>
             <i class="devicon-javascript-plain icon-big"></i>
-            <p class="small-text">This portfolio was made using purely HTML, CSS, and JavaScript (no other frameworks/libraries). What better way to demonstrate the core fundamentals than making my portfolio from them? This shows my understand and implementation of the core fundamentals.</p>
+            <p class="small-text">This portfolio was made responsive in purely HTML, CSS, and JavaScript (no other frameworks/libraries). What better way to demonstrate the core fundamentals than making my portfolio from them? This shows my understand and implementation of the core fundamentals.</p>
           </div>
           <div class="col span-1-of-2">
             <div class="port-pics">
@@ -109,27 +109,7 @@
       <div class="row">
         <div class="project">
           <div class="col span-1-of-2">
-            <h3>Something Website</h3>
-            <i class="devicon-html5-plain-wordmark icon-big"></i>
-            <i class="devicon-sass-original icon-big"></i>
-            <i class="devicon-bootstrap-plain-wordmark icon-big"></i>
-            <i class="devicon-jquery-plain-wordmark icon-big"></i>
-            <p class="small-text">Building this example website was a great learning experience, and demonstrates I can implement different tools because I understand the core fundamentals. I used Bootstrap as my front end framework, SASS preprocessor to make my CSS clean, and jQuery as my JS library. I take everything as a learning experience and hope on the job, I can learn to adapt and use just as I have done with this example.</p>
-          </div>
-          <div class="col span-1-of-2">
-            <div class="port-pics">
-              <img src="./imgs/todolist.jpg" alt="Change this to a website one later" />
-              <a class="btn btn-view" href="https://github.com/lawrenceyoon/Todo_List" target="_blank">View Code</a>
-              <a class="btn btn-demo" href="https://lawrenceyoon.github.io/Todo_List/" target="_blank">Demo</a>
-            </div>
-          </div>
-        </div>
-      </div>
-
-      <div class="row">
-        <div class="project">
-          <div class="col span-1-of-2">
-            <h3>Current Angular Project</h3>
+            <h3>Current React</h3>
             <i class="devicon-html5-plain-wordmark icon-big"></i>
             <i class="devicon-css3-plain-wordmark icon-big"></i>
             <i class="devicon-angularjs-plain icon-big"></i>
@@ -148,7 +128,7 @@
     </section>
 
     <!-- Contact -->
-    <section class="contact">
+    <section class="contact" id="contact-id">
       <div class="row">
         <h2>Contact Me</h2>
         <p>If you want to view my resume or want to talk, contact me through email! Send me a message with your name, and I'll reply as soon as possible.</p>
@@ -186,7 +166,7 @@
           </div>
 
           <div class="row">
-            <div class="col span-1-of-3">
+            <div class="col span-1-of-3 clear-space">
               <label>&nbsp;</label>
             </div>
             <div class="col span-2-of-3">
@@ -197,7 +177,7 @@
       </div>
     </section>
 
-    <!-- footer -->
+    <!-- Footer -->
     <footer class="footer">
       <div class="row">
         <p class="small-text">Website created by <strong>Lawrence Yoon.</strong></p>
