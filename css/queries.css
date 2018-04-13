@@ -77,7 +77,25 @@
 
   /* Header */
   .main-nav {
-    display: none; /* get rid of nav display */
+    float: left;
+    margin-top: 17px;
+    margin-left: 25px;
+    display: none; /* start at none, will show when clicked */
+  }
+
+  .main-nav li {
+    display: block;
+  }
+
+  .main-nav li a:link,
+  .main-nav li a:visited {
+    display: block;
+    border: 0;
+    padding-bottom: 5px;
+  }
+
+  .nav-icon {
+    display: inline-block;
   }
 
   /* About */

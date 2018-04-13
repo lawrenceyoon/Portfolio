@@ -17,6 +17,7 @@
     <!-- CSS -->
     <link rel="stylesheet" type="text/css" href="./css/normalize.css" />
     <link rel="stylesheet" type="text/css" href="./css/grid.css" />
+    <link rel="stylesheet" type="text/css" href="./css/animate.css" />
     <link rel="stylesheet" type="text/css" href="./css/style.css" />
     <link rel="stylesheet" type="text/css" href="./css/queries.css" />
 
@@ -35,9 +36,10 @@
           </div>
           <ul class="main-nav">
             <li><a href="#about-id">About</a></li>
-            <li><a href="#project-id">Projects</a></li>
+            <li><a href="#projects-id">Projects</a></li>
             <li><a href="#contact-id">Contact</a></li>
           </ul>
+          <a class="nav-icon"><i class="fas fa-bars"></i></a>
         </div>
       </nav>
 
@@ -54,7 +56,7 @@
         </div>
       </div>
 
-      <div class="row">
+      <div class="row fadeInUp-animate">
         <h2>About Me</h2>
         <p>My name is <strong>Lawrence Yoon</strong> and I am an aspiring Front End Developer. I graduated from Cal Poly Pomona with a Bachelor's in Hospitality Management and minor in International Business Marketing. After 6+ years in hospitality from hotels to restaurants, I took a step back, evaluated what I truly loved, and wanted to pursue a career in web development.</p>
         <br />
@@ -63,12 +65,12 @@
     </section>
 
     <!-- Projects -->
-    <section class="project-group" id="project-id">
+    <section class="project-group" id="projects-id">
       <div class="row">
         <h2>Projects</h2>
       </div>
 
-      <div class="row">
+      <div class="row fadeInLeft-animate">
         <div class="project">
           <div class="col span-1-of-2">
             <h3>My Portfolio</h3>
@@ -86,7 +88,7 @@
         </div>
       </div>
 
-      <div class="row">
+      <div class="row fadeInRight-animate">
         <div class="project">
           <div class="col span-1-of-2">
             <h3>Something Website</h3>
@@ -106,7 +108,7 @@
         </div>
       </div>
 
-      <div class="row">
+      <div class="row fadeInLeft-animate-2">
         <div class="project">
           <div class="col span-1-of-2">
             <h3>Wordpress Website</h3>
@@ -133,10 +135,8 @@
         <h2>Contact Me</h2>
         <p>If you want to view my resume or want to talk, contact me through email! Send me a message with your name, and I'll reply as soon as possible.</p>
       </div>
-
       <br />
-
-      <div class="row">
+      <div class="row pulse-animate">
         <form class="contact-form" action="https://formspree.io/yoonlawrence@yahoo.com" method="POST">
           <div class="row">
             <div class="col span-1-of-3">
@@ -198,6 +198,8 @@
       </div>
     </footer>
 
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <script src="./js/jquery.waypoints.min.js"></script>
     <script src="./js/script.js"></script>
   </body>
 </html>
