@@ -1,8 +1,18 @@
 /* ----- Big tablet to 1200px (widths smaller than 1140px row) ----- */
 @media only screen and (max-width: 1200px) {
-.row {
+  .row {
     padding: 0 3%;
   }
+
+  /* Project */
+  .project .icons {
+    margin: 10px 0;
+  }
+  
+  .project .icon-big {
+    font-size: 300%;
+    margin: 8px 5px;
+  }  
 }
 
 /* ----- Small tablet to big tablet: from 768px to 1023px ----- */
@@ -21,8 +31,14 @@
     padding: 10px 15px;
   }
 
-  .icon-big {
+  /* Project */
+  .project .icons {
+    margin: 10px 0;
+  }
+  
+  .project .icon-big {
     font-size: 300%;
+    margin: 8px 5px;
   }
 
   .icon-medium {
@@ -109,10 +125,20 @@
     text-align: center;
   }
 
+  /* Project */
+  .project .icons {
+    margin: 10px auto;
+    max-width: 350px;
+  }
+  
+  .project .icon-big {
+    font-size: 250%;
+    margin: 8px 5px;
+  }
+
   /* Contact */
   .clear-space {
     width: 0%;
-
   }
 
   /* Footer */
@@ -130,6 +156,16 @@
 @media only screen and (max-width: 480px) {
   section {
     padding: 30px 0;
+  }
+
+  /* Project */
+  .project .icons {
+    margin: 15px 0;
+  }
+
+  .project .icon-big {
+    font-size: 200%;
+    margin: 0 5px;
   }
 
   /* Footer */
