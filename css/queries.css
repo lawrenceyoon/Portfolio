@@ -12,7 +12,12 @@
   .project .icon-big {
     font-size: 300%;
     margin: 8px 5px;
-  }  
+  }
+
+  .redux {
+    height: 50px;
+    width: 50px;
+  }
 }
 
 /* ----- Small tablet to big tablet: from 768px to 1023px ----- */
@@ -134,6 +139,11 @@
   .project .icon-big {
     font-size: 250%;
     margin: 8px 5px;
+  }
+
+  .redux {
+    height: 40px;
+    width: 40px;
   }
 
   /* Contact */

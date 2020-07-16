@@ -265,6 +265,12 @@ header {
   width: 100%;
 }
 
+.redux {
+  height: 60px;
+  width: 60px;
+  margin-right: 10px;
+}
+
 /* ----- Contact ----- */
 .contact p {
   text-align: center;
