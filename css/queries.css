@@ -4,6 +4,12 @@
     padding: 0 3%;
   }
 
+  /* Title */
+  .hero-text-box {
+    right: 20px;
+    background-color: #fff;
+  }
+
   /* Project */
   .project .icons {
     margin: 10px 0;
@@ -119,6 +125,15 @@
     display: inline-block;
   }
 
+  /* Title */
+  .hero-text-box {
+    bottom: 25px;
+    right: 25px;
+    width: 250px;
+    height: 100px;
+    background-color: #fff;
+  }
+
   /* About */
   .about h2 {
     margin-top: 30px;
@@ -130,7 +145,6 @@
     text-align: center;
   }
 
-  /* Project */
   .project .icons {
     margin: 10px auto;
     max-width: 350px;
