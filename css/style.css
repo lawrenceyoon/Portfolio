@@ -262,6 +262,10 @@ header {
   background-color: #f4f4f4;
 }
 
+.project-padding {
+  padding-top: 50px;
+}
+
 .project {
   display: inline-block;
   background-color: white;
