@@ -341,7 +341,11 @@ input[type=submit]:active {
 }
 
 .footer .small-text {
-  margin: 0 auto 20px auto;
+  margin: 30px auto 30px auto;
+}
+
+.links {
+  padding-bottom: 30px;
 }
 
 .links a {
