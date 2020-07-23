@@ -203,15 +203,15 @@ i:active {
 /* ----- Header ----- */
 header {
   height: 100vh;
+  position: relative;
   background-image: url(../imgs/vine.png);
   background-size: cover;
   background-position: center;
-  background-repeat: no-repeat;
   background-attachment: fixed;
   -o-background-size: cover;
     -moz-background-size: cover;
     -webkit-background-size: cover;
-  position: relative;
+  background-repeat: no-repeat;
 }
 
 /* Title */
