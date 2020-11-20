@@ -9,6 +9,12 @@
     right: 20px;
   }
 
+  /* Header */
+  #about-id p {
+    width: 80%;
+    margin: 0 auto;
+  }
+
   /* Project */
   .project .icons {
     margin: 10px 0;
