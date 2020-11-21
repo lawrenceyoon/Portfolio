@@ -1,0 +1,254 @@
+@import url("/css/style.css");
+@media only screen and (max-width: 1200px) {
+  #about .container {
+    width: 100%;
+    margin: 0;
+  }
+
+  #projects .container {
+    width: 100%;
+    margin: 0;
+  }
+
+  #projects .left-side {
+    justify-content: center;
+  }
+
+  #projects .icons {
+    font-size: 70px;
+    margin-top: 20px;
+    width: 90%;
+  }
+
+  #projects i {
+    margin: 0 10px 0 0;
+  }
+
+  #contact .container {
+    width: 100%;
+    margin: 0;
+  }
+
+  footer .container {
+    width: 100%;
+    margin: 0;
+  }
+}
+
+@media only screen and (max-width: 1023px) {
+  #projects .project-box {
+    border-top: 2px solid var(--color-white);
+  }
+
+  #projects .icons {
+    font-size: 50px;
+  }
+
+  #projects img {
+    width: 100%;
+    height: 300px;
+  }
+
+  #projects button {
+    font-size: 16px;
+    letter-spacing: 1.5px;
+  }
+
+  footer .container {
+    padding: 20px 0;
+  }
+
+  footer .icons {
+    font-size: 35px;
+  }
+}
+
+@media only screen and (max-width: 850px) {
+  header nav {
+    display: none;
+  }
+
+  #about .profile-pic {
+    height: 300px;
+    width: 300px;
+  }
+
+  #about p:nth-of-type(2) {
+    display: none;
+  }
+
+  #projects .project-box {
+    padding: 0;
+    flex-direction: column;
+  }
+
+  #projects .left-side {
+    align-items: center;
+    width: 100%;
+    padding: 30px 0;
+  }
+
+  #projects .icons {
+    justify-content: center;
+    width: 100%;
+  }
+
+  #projects i {
+    margin-right: 15px;
+  }
+
+  #projects p {
+    width: 80%;
+    text-align: center;
+  }
+
+  #projects .right-side {
+    width: 100%;
+    padding-bottom: 30px;
+    text-align: center;
+  }
+
+  #projects img {
+    width: 70%;
+  }
+
+  #projects .buttons {
+    margin: 20px auto 0 auto;
+    width: 80%;
+  }
+
+  #projects button {
+    padding: 10px;
+    font-size: 16px;
+  }
+
+
+  #contact p {
+    width: 80%;
+    text-align: center;
+  }
+}
+
+@media only screen and (max-width: 480px) {
+  #about .container {
+    padding: 30px 0;
+  }
+
+  #about .profile-pic {
+    height: 200px;
+    width: 200px;
+  }
+
+  #about h2 {
+    font-size: 25px;
+    margin: 20px
+  }
+
+  #about h2:after {
+    width: 60px;
+  }
+
+  #about p {
+    font-size: 16px;
+  }
+
+  #projects {
+    padding: 30px 0;
+  }
+
+  #projects h2 {
+    font-size: 25px;
+    margin: 20px 0;
+  }
+
+  #projects h2:after {
+    width: 60px;
+  }
+
+  #projects .left-side {
+    padding: 10px 0;
+  }
+
+  #projects h3 {
+    font-size: 20px;
+  }
+
+  #projects .icons {
+    font-size: 30px;
+  }
+
+  #projects p {
+    font-size: 16px;
+  }
+
+  #projects .right-side {
+    padding-bottom: 10px;
+  }
+
+  #projects img {
+    width: 90%;
+    height: 200px;
+  }
+
+  #projects .buttons {
+    margin-top: 10px;
+  }
+
+  #projects button {
+    padding: 5px;
+    font-size: 16px;
+  }
+
+  #contact .container {
+    padding: 20px 0;
+  }
+
+  #contact h2 {
+    font-size: 25px;
+  }
+
+  #contact h2:after {
+    width: 60px;
+  }
+
+  #contact p {
+    font-size: 16px;
+    width: 90%;
+  }
+
+  #contact label {
+    width: 30%;
+    font-size: 16px;
+    padding: 0;
+    margin-left: 20px;
+    justify-content: flex-start;
+  }
+
+  #contact input,
+  #contact textarea {
+    width: 60%;
+    margin-right: 10px;
+    font-size: 16px;
+  }
+
+  #contact label:nth-of-type(2) {
+    margin: 10px 0 10px 20px;
+  }
+
+  #contact input[type="email"] {
+    margin: 10px 0;
+  }
+  
+  #contact textarea {
+    height: 50px;
+  }
+
+  #contact .button {
+    margin-top: 10px;
+  }
+
+  #contact .space {
+    width: 30%;
+    margin-left: 20px;
+  }
+}

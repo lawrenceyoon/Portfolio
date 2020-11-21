@@ -1,383 +1,170 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-
-    <!-- Global site tag (gtag.js) - Google Analytics -->
-    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-117478568-1"></script>
-    <script>
-      window.dataLayer = window.dataLayer || [];
-      function gtag(){dataLayer.push(arguments);}
-      gtag('js', new Date());
-
-      gtag('config', 'UA-117478568-1');
-    </script>
-
-    <!-- Basic Page Setup  -->
-    <meta charset="utf-8" />
-
-    <!-- SEO -->
-    <meta name="description" content="Lawrence Yoon's responsive portfolio that showcases his work as a front end developer." />
-    <meta name="author" content="Lawrence Yoon" />
-
-    <!-- Mobile Friendly -->
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
-
-    <!-- All Fonts -->
-    <link href="https://fonts.googleapis.com/css?family=Lato:100,300,300i,400" rel="stylesheet" />
-
-    <!-- CSS -->
-    <link rel="stylesheet" type="text/css" href="./css/normalize.css" />
-    <link rel="stylesheet" type="text/css" href="./css/grid.css" />
-    <link rel="stylesheet" type="text/css" href="./css/animate.css" />
-    <link rel="stylesheet" type="text/css" href="./css/style.css" />
-    <link rel="stylesheet" type="text/css" href="./css/queries.css" />
-
-    <!-- Icons -->
-    <link rel="stylesheet" href="https://cdn.rawgit.com/konpa/devicon/df6431e323547add1b4cf45992913f15286456d3/devicon.min.css" />
-    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.9/css/all.css" integrity="sha384-5SOiIsAziJl6AWe0HWRKTXlfcSHKmYV4RBF18PPJ173Kzn7jzMyFuTtk8JA7QQG1" crossorigin="anonymous">
-    <link rel="stylesheet" type="text/css" href="http://code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css" />
-
-    <!-- Title -->
-    <title>Lawrence Yoon Portfolio</title>
-  </head>
-  <body>
-
-    <!-- Header -->
-    <header id="top-of-page">
-      <nav>
-        <div class="row">
-          <div class="navbar-brand">
-            <a href="#top-of-page">Lawrence</a>
-          </div>
-          <ul class="main-nav">
-            <li><a href="#about-id">About</a></li>
-            <li><a href="#projects-id">Projects</a></li>
-            <li><a href="#contact-id">Contact</a></li>
-          </ul>
-          <a class="nav-icon"><i class="ion-navicon-round"></i></a>
-        </div>
-      </nav>
-
-      <div class="hero-text-box">
-        <h1 class="myName">Lawrence Yoon</h1>
-        <h3 class="myTitle">Web Developer<span class="blink"> |</span></h3>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Lawrence Yoon's responsive portfolio that showcases his work as a Web Developer.">
+  <meta name="author" content="Lawrence Yoon">
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.gstatic.com"> 
+  <!-- Icons -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/devicons/devicon@master/devicon.min.css">
+  <link href="https://fonts.googleapis.com/css2?family=Lato:wght@400;700&display=swap" rel="stylesheet">
+  <!-- Style Sheets -->
+  <link rel="stylesheet" href="css/Meyers.css">
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/query.css">
+  <title>Lawrence Yoon's Portfolio</title>
+</head>
+<body>
+  <header>
+    <nav>
+      <div class="logo">
+        <a href="#top-of-page">Lawrence</a>
       </div>
-    </header>
+      <ul>
+        <li><a href="#about">About</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+    <div class="hero" id="top-of-page">
+      <h1>Lawrence Yoon</h1>
+      <h2>Web Developer</h2>
+    </div>
+  </header>
 
-    <!-- About Me -->
-    <section class="about" id="about-id">
-      <div class="row">
-        <div class="profilepic">
-          <img src="./imgs/myprofilepic.jpg" alt="My profile picture" />
-        </div>
-      </div>
-
-      <div class="row fadeInUp-animate">
+  <main>
+    <section id="about">
+      <div class="container">
         <h2>About Me</h2>
-        <p>My name is <strong>Lawrence Yoon</strong> and I am a Web Developer.</p>
-        <br />
-        <p>My portfolio is built with a minimalistic approach making it a clear, concise, and simple as possible, so any detailed information can be found through my resume.
+        <div class="profile-pic"></div>
+        <p>Hey there, my name is <strong>Lawrence Yoon</strong> and I am a <strong>Web Developer</strong>.</p>
+        <p>I have worked with multiple brands, including Sesame Street, Ardell, and China Glaze. Check out my projects and work below. If there are any questions, please contact me in the contact section.</p>
+      </div>
     </section>
 
-    <!-- Projects -->
-    <section class="project-group" id="projects-id">
-      <div class="row">
-        <h2 class="project-padding">Projects</h2>
-      </div>
-
-      <div class="row fadeInLeft-animate">
-        <div class="project">
-          <div class="col span-1-of-2">
-            <h3>My Portfolio</h3>
-             <div class="icons">
-              <i class="devicon-html5-plain-wordmark icon-big"></i>
-              <i class="devicon-css3-plain-wordmark icon-big"></i>
-              <i class="devicon-jquery-plain-wordmark icon-big"></i>
-              <i class="devicon-git-plain icon-big"></i>
-             </div>
-            <p class="small-text">This portfolio was made responsive in purely HTML, CSS, and jQuery. I made my own breakpoints for phones and tablets, ensuring the website is properly displayed. I chose a minimalistic, but well executed website to demonstrate my understanding of the core fundamentals.</p>
-          </div>
-          <div class="col span-1-of-2">
-            <div class="port-pics">
-              <a href="#">
-                <img src="./imgs/portfolio.jpg" alt="Portfolio" />
-              </a>
-              <a class="btn btn-view" href="https://github.com/lawrenceyoon/Portfolio" target="_blank">
-                View Code
-              </a>
-            </div>
-          </div>
-        </div>
-      </div>
-
-      <div class="row fadeInRight-animate">
-        <div class="project">
-          <div class="col span-1-of-2">
-            <h3>DJ Project</h3>
+    <section id="projects">
+      <div class="container">
+        <h2>Projects & Work</h2>
+        <div class="project-box">
+          <div class="left-side">
+            <h3><a href="#top-of-page">My Portfolio</a></h3>
             <div class="icons">
-              <i class="devicon-html5-plain-wordmark icon-big"></i>
-              <i class="devicon-css3-plain-wordmark icon-big"></i>
-              <i class="devicon-jquery-plain-wordmark icon-big"></i>
-              <i class="devicon-git-plain icon-big"></i>
-              <i class="devicon-bootstrap-plain icon-big"></i>
+              <i class="devicon-html5-plain-wordmark colored"></i>
+              <i class="devicon-css3-plain-wordmark colored"></i>
+              <i class="devicon-javascript-plain colored"></i>
+              <i class="devicon-git-plain-wordmark colored"></i>
             </div>
-            <p class="small-text">I love music, so I created a DJ inspired theme with links going to separate html files. Main reason was to show my solid understanding of Bootstrap 4 with Flexbox.</p>
+            <p>This portfolio was made responsive and minimalistic in purely HTML, CSS, and Javascript.</p>
           </div>
-          <div class="col span-1-of-2">
-            <div class="port-pics">
-              <a href="https://lawrenceyoon.github.io/Bootstrap-4-Project/" target="_blank">
-                <img src="./imgs/dj-theme.jpg" alt="DJ Theme Project" />
-              </a>
-              <a class="btn btn-view" href="https://github.com/lawrenceyoon/Bootstrap-4-Project" target="_blank">
-                View Code
-              </a>
-              <a class="btn btn-demo" href="https://lawrenceyoon.github.io/Bootstrap-4-Project/" target="_blank">
-                Demo
-              </a>
+          <div class="right-side">
+            <a href="#top-of-page"><img src="imgs/portfolio.png" alt="Portfolio Picture"></a>
+            <div class="buttons">
+              <a href="https://github.com/lawrenceyoon/Portfolio" target="_blank"><button>View Code</button></a>
             </div>
           </div>
         </div>
-      </div>
-
-      <div class="row fadeInLeft-animate-2">
-        <div class="project">
-          <div class="col span-1-of-2">
-            <h3>Email Mailchimp/Dotdigital</h3>
-             <div class="icons">
-              <i class="devicon-html5-plain-wordmark icon-big"></i>
-              <i class="devicon-css3-plain-wordmark icon-big"></i>
-              <i class="devicon-photoshop-line icon-big"></i>
-              <i class="devicon-illustrator-line icon-big"></i>
-              <i class="devicon-git-plain icon-big"></i>
-             </div>
-            <p class="small-text">
-              I was the lead developer for email sends, so I worked closely with the marketing and art team. This is an example of an email I made after getting assets from other teams, using HTML, CSS, and Adobe (Indesign, Photoshop). After testing and review, it was sent to multiple sub lists (some as large as 50k) from marketing platforms, such as Mailchimp and Dotdigital. Also did proper A/B tests to provide feedback to other managers.</p>
-          </div>
-          <div class="col span-1-of-2">
-            <div class="port-pics">
-              <a href="https://lawrenceyoon.github.io/Email-Ardell/" target="_blank">
-                <img src="./imgs/email-ardell.jpg" alt="Email Mailchimp Demo" />
-              </a>
-              <a class="btn btn-view" href="https://github.com/lawrenceyoon/Email-Ardell" target="_blank">
-                View Code
-              </a>
-              <a class="btn btn-demo" href="https://lawrenceyoon.github.io/Email-Ardell/" target="_blank">
-                Demo
-              </a>
-            </div>
-          </div>
-        </div>
-      </div>
-
-      <div class="row">
-        <div class="project">
-          <div class="col span-1-of-2">
-            <h3>China Glaze x Sesame St. Landing Page</h3>
+        <div class="project-box">
+          <div class="left-side">
+            <h3><a href="https://lawrenceyoon.github.io/Bootstrap-4-Project/" target="_blank">DJ Site & FCC Projects</a></h3>
             <div class="icons">
-              <i class="devicon-html5-plain-wordmark icon-big"></i>
-              <i class="devicon-css3-plain-wordmark icon-big"></i>
-              <i class="devicon-photoshop-line icon-big"></i>
-              <i class="devicon-illustrator-line icon-big"></i>
-              <i class="devicon-git-plain icon-big"></i>
+              <i class="devicon-html5-plain-wordmark colored"></i>
+              <i class="devicon-css3-plain-wordmark colored"></i>
+              <i class="devicon-git-plain-wordmark colored"></i>
+              <i class="devicon-codepen-plain-wordmark colored"></i>
             </div>
-            <p class="small-text">A landing page example in the alpha phase I had much fun creating by working closely with the brand manager for China Glaze and the Sesame Street team. Sesame Street gave us assets we were allowed to use only for creating this landing page with our featured products.
-            <br>
-            <br>
-            Making these demo pages before review alongside many others, has taught me how to work with other brand managers and teams outside our company.</p>
+            <p>These projects mainly showcase my HTML & CSS skills, from using frameworks/libraries to using only pure CSS.</p>
           </div>
-          <div class="col span-1-of-2">
-            <div class="port-pics">
-              <a href="https://lawrenceyoon.github.io/sesameStreet/" target="_blank">
-                <img src="./imgs/cgxss.jpg" alt="First Coffee Website Project" />
-              </a>
-              <a class="btn btn-view" href="https://github.com/lawrenceyoon/sesameStreet" target="_blank">
-                View Code
-              </a>
-              <a class="btn btn-demo" href="https://lawrenceyoon.github.io/sesameStreet/" target="_blank">
-                Demo
-              </a>
+          <div class="right-side">
+            <a href="https://lawrenceyoon.github.io/Bootstrap-4-Project/" target="_blank"><img src="imgs/dj.png" alt="DJ Website Picture"></a>
+            <div class="buttons">
+              <a href="https://lawrenceyoon.github.io/Bootstrap-4-Project/" target="_blank"><button>Demo</button></a>
+              <a href="https://github.com/lawrenceyoon/Bootstrap-4-Project" target="_blank"><button>View Code</button></a>
+              <a href="https://codepen.io/lyoon" target="_blank"><button>Codepen</button></a>
             </div>
           </div>
         </div>
-      </div>
-
-      
-      <div class="row">
-        <div class="project">
-          <div class="col span-1-of-2">
-            <h3>React Pic App</h3>
+        <div class="project-box">
+          <div class="left-side">
+            <h3><a href="https://lawrenceyoon.github.io/Email-Ardell/" target="_blank">Mailchimp/Dotdigital Emails</a></h3>
             <div class="icons">
-              <i class="devicon-html5-plain-wordmark icon-big"></i>
-              <i class="devicon-css3-plain-wordmark icon-big"></i>
-              <i class="devicon-react-original-wordmark icon-big"></i></i>
-              <i class="devicon-git-plain icon-big"></i>
-              <i class="devicon-nodejs-plain-wordmark icon-big"></i>
-              <i class="fab fa-npm icon-big"></i>
-              <i class="devicon-webpack-plain-wordmark icon-big"></i>
-              <i class="devicon-babel-plain icon-big"></i>
+              <i class="devicon-html5-plain-wordmark colored"></i>
+              <i class="devicon-css3-plain-wordmark colored"></i>
+              <i class="devicon-photoshop-line colored"></i>
+              <i class="devicon-illustrator-line colored"></i>
+              <i class="devicon-git-plain-wordmark colored"></i>
             </div>
-            <p class="small-text">My first React app I created that reaches into Unsplash API and receives a list of images.
-            <br>
-            <br>
-            Creating this app taught me a lot about hooks, event handlers, passing state from parent to child and vice versa (via callbacks), creating reusable components, and how to deal with async requests.</p>
+            <p>Previously, I was a lead developer for email sends. This is an example of an email I made working closely with the art and marketing team.</p>
           </div>
-          <div class="col span-1-of-2">
-            <div class="port-pics">
-              <a href="https://react-project-pictures.now.sh/" target="_blank">
-                <img src="./imgs/react-proj-1.jpg" alt="React Search Picture App" />
-              </a>
-              <a class="btn btn-view" href="https://github.com/lawrenceyoon/React-Project--Pictures" target="_blank">
-                View Code
-              </a>
-              <a class="btn btn-demo" href="https://react-project-pictures.now.sh/" target="_blank">
-                Demo
-              </a>
+          <div class="right-side">
+            <a href="https://lawrenceyoon.github.io/Email-Ardell/" target="_blank"><img src="imgs/email-ardell.jpg" alt="Ardell Email Example"></a>
+            <div class="buttons">
+              <a href="https://lawrenceyoon.github.io/Email-Ardell/" target="_blank"><button>Demo</button></a>
+              <a href="https://github.com/lawrenceyoon/Email-Ardell" target="_blank"><button>View Code</button></a>
             </div>
           </div>
         </div>
-      </div>
-
-      <div class="row">
-        <div class="project">
-          <div class="col span-1-of-2">
-            <h3>React Video App</h3>
+        <div class="project-box">
+          <div class="left-side">
+            <h3><a href="https://react-project-pictures.now.sh/" target="_blank">React Pic App</a></h3>
             <div class="icons">
-              <i class="devicon-html5-plain-wordmark icon-big"></i>
-              <i class="devicon-css3-plain-wordmark icon-big"></i>
-              <i class="devicon-react-original-wordmark icon-big"></i></i>
-              <i class="devicon-git-plain icon-big"></i>
-              <i class="devicon-nodejs-plain-wordmark icon-big"></i>
-              <i class="fab fa-npm icon-big"></i>
-              <i class="devicon-webpack-plain-wordmark icon-big"></i>
-              <i class="devicon-babel-plain icon-big"></i>
+              <i class="devicon-html5-plain-wordmark colored"></i>
+              <i class="devicon-css3-plain-wordmark colored"></i>
+              <i class="devicon-sass-original colored"></i>
+              <i class="devicon-react-original-wordmark colored"></i>
+              <i class="devicon-nodejs-plain-wordmark colored"></i>
+              <i class="devicon-npm-original-wordmark colored"></i>
+              <i class="devicon-git-plain-wordmark colored"></i>
             </div>
-            <p class="small-text">This React app reaches into Youtube API and receives info on videos. I set default to DragonBall Z because I loved that tv series when I was young.
-            <br>
-            <br>
-            Created this app using class based components, to show I have an understanding of both hooks (Pic App) and class components.</p>
+            <p>My React app reaches into Unsplash API and receives a (max 10) list of images.</p>
           </div>
-          <div class="col span-1-of-2">
-            <div class="port-pics">
-              <a href="https://react-app-youtube-search.now.sh/" target="_blank">
-                <img src="./imgs/react-proj-2.jpg" alt="React Video App" />
-              </a>
-              <a class="btn btn-view" href="https://github.com/lawrenceyoon/React-App--YoutubeSearch" target="_blank">
-                View Code
-              </a>
-              <a class="btn btn-demo" href="https://react-app-youtube-search.now.sh/" target="_blank">
-                Demo
-              </a>
+          <div class="right-side">
+            <a href="https://react-project-pictures.now.sh/" target="_blank"><img src="imgs/react-pic.png" alt="React App Picture"></a>
+            <div class="buttons">
+              <a href="https://react-project-pictures.now.sh/" target="_blank"><button>Demo</button></a>
+              <a href="https://github.com/lawrenceyoon/React-Project--Pictures" target="_blank"><button>View Code</button></a>
             </div>
           </div>
         </div>
       </div>
-
-      <div class="row">
-        <div class="project">
-          <div class="col span-1-of-2">
-            <h3>MERN Fullstack Emaily App</h3>
-            <div class="icons">
-              <img class="redux" src="https://img.icons8.com/ios/50/000000/redux.png"/>
-              <i class="devicon-react-original-wordmark icon-big"></i></i>
-              <i class="devicon-sass-original icon-big"></i>
-              <i class="devicon-git-plain icon-big"></i>
-              <i class="devicon-nodejs-plain-wordmark icon-big"></i>
-              <i class="devicon-heroku-original-wordmark icon-big"></i>
-              <i class="devicon-express-original-wordmark icon-big"></i>
-              <i class="devicon-mongodb-plain-wordmark icon-big"></i>
-            </div>
-            <p class="small-text">This is a MERN fullstack app made by following through Stephen Grider's Udemy course, while adding my own personal touches. Hosted via Heroku. More info found through readme at Github.
-          </div>
-          <div class="col span-1-of-2">
-            <div class="port-pics">
-              <a href="https://still-tor-27300.herokuapp.com/" target="_blank">
-                <img src="./imgs/mern-fullstack.jpg" alt="Emaily Fullstack App" />
-              </a>
-              <a class="btn btn-view" href="https://github.com/lawrenceyoon/MERN-Emaily" target="_blank">
-                View Code
-              </a>
-              <a class="btn btn-demo" href="https://still-tor-27300.herokuapp.com/" target="_blank">
-                Demo
-              </a>
-            </div>
-          </div>
-        </div>
-      </div>
-      
     </section>
 
-    <!-- Contact -->
-    <section class="contact" id="contact-id">
-      <div class="row">
+    <section id="contact">
+      <div class="container">
         <h2>Contact Me</h2>
-        <p>If there are any questions regarding my resume, personal and/or work experience, please feel free to call or email me! If I can't answer in the exact moment, I'll call/reply back as soon as I am able. Thank you!</p>
-      </div>
-      <br />
-      <div class="row pulse-animate">
-        <form class="contact-form" action="https://formspree.io/yoonlawrence@yahoo.com" method="POST">
-          <div class="row">
-            <div class="col span-1-of-3">
-              <label for="name">Name</label>
-            </div>
-            <div class="col span-2-of-3">
-              <input type="text" name="name" id="name" placeholder="Your name" required />
-            </div>
-          </div>
-
-          <div class="row">
-            <div class="col span-1-of-3">
-              <label for="email">Email</label>
-            </div>
-            <div class="col span-2-of-3">
-              <input type="email" name="email" id="email" placeholder="Your email" required />
-            </div>
-          </div>
-
-          <div class="row">
-            <div class="col span-1-of-3">
-              <label for="message">Message</label>
-            </div>
-            <div class="col span-2-of-3">
-              <textarea name="message" id="message" placeholder="Your message"></textarea>
-            </div>
-          </div>
-
-          <div class="row">
-            <div class="col span-1-of-3 clear-space">
-              <label>&nbsp;</label>
-            </div>
-            <div class="col span-2-of-3">
-              <input type="submit" value="Send" />
-            </div>
+        <p>My phone number can be found in my resume, or shoot me a quick email!</p>
+        <form action="https://formspree.io/yoonlawrence@yahoo.com" method="POST">
+          <label for="name">Name:</label>
+          <input id="name" type="text" name="name" placeholder="Your name..." required>
+          <label for="email">Email:</label>
+          <input id="email" type="email" name="email" placeholder="Your email..." required>
+          <label for="message">Message:</label>
+          <textarea name="message" placeholder="Your message..."></textarea>
+          <div class="button">
+            <div class="space"></div>
+            <button type="submit">Send</button>
           </div>
         </form>
       </div>
     </section>
+  </main>
 
-    <!-- Footer -->
-    <footer class="footer">
-      <div class="row">
-        <p class="small-text">Website created by <strong>Lawrence Yoon.</strong></p>
+  <footer>
+    <div class="container">
+      <h3><span>&#169;</span> Website created by Lawrence Yoon</h3>
+      <div class="icons">
+        <a href="https://github.com/lawrenceyoon" target="_blank">
+          <i class="devicon-github-plain"></i>
+        </a>
+        <a href="https://www.linkedin.com/in/lawrenceyoon/" target="_blank">
+          <i class="devicon-linkedin-plain"></i>
+        </a>
+        <a href="https://codepen.io/lyoon" target="_blank">
+          <i class="devicon-codepen-plain"></i>
+        </a>
       </div>
-
-      <div class="row">
-        <div class="links">
-          <a href="https://github.com/lawrenceyoon">
-            <i class="devicon-github-plain icon-medium blue-icon"></i>
-          </a>
-          <a class="icon-margin" href="https://www.linkedin.com/in/lawrenceyoon/">
-            <i class="fab fa-linkedin icon-medium blue-icon"></i>
-          </a>
-          <a href="https://codepen.io/lyoon/">
-            <i class="fab fa-codepen icon-medium blue-icon"></i>
-          </a>
-        </div>
-      </div>
-    </footer>
-
-    <!-- jQuery, JS files -->
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
-    <script src="./js/jquery.waypoints.min.js"></script>
-    <script src="./js/script.js"></script>
-  </body>
+    </div>
+  </footer>
+</body>
 </html>
