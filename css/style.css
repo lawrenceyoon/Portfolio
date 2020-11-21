@@ -322,6 +322,10 @@ header .hero {
   color: var(--color-white);
 }
 
+#contact button:focus {
+  outline: none;
+}
+
 /* Footer */
 footer .container {
   border-radius: 5px;
