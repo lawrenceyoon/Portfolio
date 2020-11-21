@@ -20,7 +20,7 @@
   <header>
     <nav>
       <div class="logo">
-        <a href="#top-of-page">Lawrence</a>
+        <a class="scroll" href="#top-of-page">Lawrence</a>
       </div>
       <ul>
         <li><a href="#about">About</a></li>
@@ -49,7 +49,7 @@
         <h2>Projects & Work</h2>
         <div class="project-box">
           <div class="left-side">
-            <h3><a href="#top-of-page">My Portfolio</a></h3>
+            <h3><a href="#top-of-page" class="scroll">My Portfolio</a></h3>
             <div class="icons">
               <i class="devicon-html5-plain-wordmark colored"></i>
               <i class="devicon-css3-plain-wordmark colored"></i>
@@ -59,7 +59,7 @@
             <p>This portfolio was made responsive and minimalistic in purely HTML, CSS, and Javascript.</p>
           </div>
           <div class="right-side">
-            <a href="#top-of-page"><img src="imgs/portfolio.png" alt="Portfolio Picture"></a>
+            <a href="#top-of-page" class="scroll"><img src="imgs/portfolio.png" alt="Portfolio Picture"></a>
             <div class="buttons">
               <a href="https://github.com/lawrenceyoon/Portfolio" target="_blank"><button>View Code</button></a>
             </div>
@@ -166,5 +166,8 @@
       </div>
     </div>
   </footer>
+  <!-- Smooth Scroll wide support for older web browsers -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/iamdustan-smoothscroll/0.4.0/smoothscroll.min.js"></script>
+  <script src="js/script.js"></script>
 </body>
 </html>
