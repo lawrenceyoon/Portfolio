@@ -1,173 +1,319 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta name="description" content="Lawrence Yoon's responsive portfolio that showcases his work as a Web Developer.">
-  <meta name="author" content="Lawrence Yoon">
-  <!-- Google Fonts -->
-  <link rel="preconnect" href="https://fonts.gstatic.com"> 
-  <!-- Icons -->
-  <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/devicons/devicon@master/devicon.min.css">
-  <link href="https://fonts.googleapis.com/css2?family=Lato:wght@400;700&display=swap" rel="stylesheet">
-  <!-- Style Sheets -->
-  <link rel="stylesheet" href="css/Meyers.css">
-  <link rel="stylesheet" href="css/style.css">
-  <link rel="stylesheet" href="css/query.css">
-  <title>Lawrence Yoon's Portfolio</title>
-</head>
-<body>
-  <header>
-    <nav>
-      <div class="logo">
-        <a class="scroll" href="#top-of-page">Lawrence</a>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Lawrence Yoon's responsive portfolio that showcases his work as a Web Developer."
+    />
+    <meta name="author" content="Lawrence Yoon" />
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <!-- Icons -->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/gh/devicons/devicon@master/devicon.min.css"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Lato:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+    <!-- Style Sheets -->
+    <link rel="stylesheet" href="css/Meyers.css" />
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/query.css" />
+    <title>Lawrence Yoon's Portfolio</title>
+  </head>
+  <body>
+    <header>
+      <nav>
+        <div class="logo">
+          <a class="scroll" href="#top-of-page">Lawrence</a>
+        </div>
+        <ul>
+          <li><a href="#about">About</a></li>
+          <li><a href="#projects">Projects</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </nav>
+      <div class="hero" id="top-of-page">
+        <h1>Lawrence Yoon</h1>
+        <h2>Web Developer</h2>
+        <div class="icons">
+          <a href="https://github.com/lawrenceyoon" target="_blank">
+            <i class="devicon-github-plain"></i>
+          </a>
+          <a href="https://www.linkedin.com/in/lawrenceyoon/" target="_blank">
+            <i class="devicon-linkedin-plain"></i>
+          </a>
+          <a href="https://codepen.io/lyoon" target="_blank">
+            <i class="devicon-codepen-plain"></i>
+          </a>
+        </div>
       </div>
-      <ul>
-        <li><a href="#about">About</a></li>
-        <li><a href="#projects">Projects</a></li>
-        <li><a href="#contact">Contact</a></li>
-      </ul>
-    </nav>
-    <div class="hero" id="top-of-page">
-      <h1>Lawrence Yoon</h1>
-      <h2>Web Developer</h2>
-    </div>
-  </header>
+    </header>
 
-  <main>
-    <section id="about">
+    <main>
+      <section id="about">
+        <div class="container">
+          <h2>About Me</h2>
+          <div class="profile-pic"></div>
+          <p>
+            Hey there, my name is <strong>Lawrence Yoon</strong> and I am a
+            <strong>Web Developer</strong>.
+          </p>
+          <p>
+            I have worked with multiple brands, including Sesame Street, Ardell,
+            and China Glaze. Check out my projects and work below!
+          </p>
+        </div>
+      </section>
+
+      <section id="projects">
+        <div class="container">
+          <h2>Projects & Work</h2>
+          <!-- My Portfolio -->
+          <div class="project-box">
+            <div class="left-side">
+              <h3><a href="#top-of-page" class="scroll">My Portfolio</a></h3>
+              <div class="icons">
+                <i class="devicon-html5-plain-wordmark colored"></i>
+                <i class="devicon-css3-plain-wordmark colored"></i>
+                <i class="devicon-javascript-plain colored"></i>
+                <i class="devicon-git-plain-wordmark colored"></i>
+              </div>
+              <p>
+                This portfolio was made responsive and minimalistic in purely
+                HTML, CSS, and Javascript.
+              </p>
+            </div>
+            <div class="right-side">
+              <a href="#top-of-page" class="scroll"
+                ><img src="imgs/portfolio.png" alt="Portfolio Picture"
+              /></a>
+              <div class="buttons">
+                <a
+                  href="https://github.com/lawrenceyoon/Portfolio"
+                  target="_blank"
+                  ><button>View Code</button></a
+                >
+              </div>
+            </div>
+          </div>
+          <!-- DJ Site & FCC Projects -->
+          <div class="project-box">
+            <div class="left-side">
+              <h3>
+                <a
+                  href="https://lawrenceyoon.github.io/Bootstrap-4-Project/"
+                  target="_blank"
+                  >DJ Site & FCC Projects</a
+                >
+              </h3>
+              <div class="icons">
+                <i class="devicon-html5-plain-wordmark colored"></i>
+                <i class="devicon-css3-plain-wordmark colored"></i>
+                <i class="devicon-git-plain-wordmark colored"></i>
+                <i class="devicon-codepen-plain-wordmark colored"></i>
+              </div>
+              <p>
+                These projects mainly showcase my HTML & CSS skills, from basics
+                to incorporating frameworks/libraries.
+              </p>
+            </div>
+            <div class="right-side">
+              <a
+                href="https://lawrenceyoon.github.io/Bootstrap-4-Project/"
+                target="_blank"
+                ><img src="imgs/dj.png" alt="DJ Website Picture"
+              /></a>
+              <div class="buttons">
+                <a
+                  href="https://lawrenceyoon.github.io/Bootstrap-4-Project/"
+                  target="_blank"
+                  ><button>Demo</button></a
+                >
+                <a
+                  href="https://github.com/lawrenceyoon/Bootstrap-4-Project"
+                  target="_blank"
+                  ><button>View Code</button></a
+                >
+                <a href="https://codepen.io/lyoon" target="_blank"
+                  ><button>Codepen</button></a
+                >
+              </div>
+            </div>
+          </div>
+          <!-- Mailchimp/dotdigital Emails -->
+          <div class="project-box">
+            <div class="left-side">
+              <h3>
+                <a
+                  href="https://lawrenceyoon.github.io/Email-Ardell/"
+                  target="_blank"
+                  >Mailchimp/dotdigital Emails</a
+                >
+              </h3>
+              <div class="icons">
+                <i class="devicon-html5-plain-wordmark colored"></i>
+                <i class="devicon-css3-plain-wordmark colored"></i>
+                <i class="devicon-photoshop-line colored"></i>
+                <i class="devicon-illustrator-line colored"></i>
+                <i class="devicon-git-plain-wordmark colored"></i>
+              </div>
+              <p>
+                Previously, I was a lead developer for email sends. This is an
+                example of an email I made working closely with the art and
+                marketing team.
+              </p>
+            </div>
+            <div class="right-side">
+              <a
+                href="https://lawrenceyoon.github.io/Email-Ardell/"
+                target="_blank"
+                ><img src="imgs/email-ardell.jpg" alt="Ardell Email Example"
+              /></a>
+              <div class="buttons">
+                <a
+                  href="https://lawrenceyoon.github.io/Email-Ardell/"
+                  target="_blank"
+                  ><button>Demo</button></a
+                >
+                <a
+                  href="https://github.com/lawrenceyoon/Email-Ardell"
+                  target="_blank"
+                  ><button>View Code</button></a
+                >
+              </div>
+            </div>
+          </div>
+          <!-- Pomodoro App -->
+          <div class="project-box">
+            <div class="left-side">
+              <h3>
+                <a
+                  href="https://lawrenceyoon.github.io/Email-Ardell/"
+                  target="_blank"
+                  >Pomodoro Timer</a
+                >
+              </h3>
+              <div class="icons">
+                <i class="devicon-html5-plain-wordmark colored"></i>
+                <i class="devicon-css3-plain-wordmark colored"></i>
+                <i class="devicon-react-original-wordmark colored"></i>
+                <i class="devicon-nodejs-plain-wordmark colored"></i>
+                <i class="devicon-npm-original-wordmark colored"></i>
+                <i class="devicon-git-plain-wordmark colored"></i>
+              </div>
+              <p>
+                A Task Timer that follows the Pomdoro time blocking principles.
+              </p>
+            </div>
+            <div class="right-side">
+              <a href="imgs/pomodoro.png" target="_blank"
+                ><img src="imgs/pomodoro.png" alt="Pomodoro Timer Project"
+              /></a>
+              <div class="buttons">
+                <a
+                  href="https://project-pomodoro-timer-qualified-1-gray.vercel.app/"
+                  target="_blank"
+                  ><button>Demo</button></a
+                >
+                <a
+                  href="https://github.com/lawrenceyoon/Pomodoro-Timer-Project"
+                  target="_blank"
+                  ><button>View Code</button></a
+                >
+              </div>
+            </div>
+          </div>
+          <!-- React Pic App -->
+          <div class="project-box">
+            <div class="left-side">
+              <h3>
+                <a href="https://react-project-pictures.now.sh/" target="_blank"
+                  >React Pic</a
+                >
+              </h3>
+              <div class="icons">
+                <i class="devicon-html5-plain-wordmark colored"></i>
+                <i class="devicon-css3-plain-wordmark colored"></i>
+                <i class="devicon-sass-original colored"></i>
+                <i class="devicon-react-original-wordmark colored"></i>
+                <i class="devicon-nodejs-plain-wordmark colored"></i>
+                <i class="devicon-npm-original-wordmark colored"></i>
+                <i class="devicon-git-plain-wordmark colored"></i>
+              </div>
+              <p>
+                My React app reaches into Unsplash API and receives a (max 10)
+                list of images.
+              </p>
+            </div>
+            <div class="right-side">
+              <a href="https://react-project-pictures.now.sh/" target="_blank"
+                ><img src="imgs/react-pic.png" alt="React App Picture"
+              /></a>
+              <div class="buttons">
+                <a href="https://react-project-pictures.now.sh/" target="_blank"
+                  ><button>Demo</button></a
+                >
+                <a
+                  href="https://github.com/lawrenceyoon/React-Project--Pictures"
+                  target="_blank"
+                  ><button>View Code</button></a
+                >
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="contact">
+        <div class="container">
+          <h2>Contact Me</h2>
+          <p>
+            My phone number can be found in my resume, or shoot me a quick
+            email!
+          </p>
+          <form
+            action="https://formspree.io/yoonlawrence@yahoo.com"
+            method="POST"
+          >
+            <label for="name">Name:</label>
+            <input
+              id="name"
+              type="text"
+              name="name"
+              placeholder="Your name..."
+              required
+            />
+            <label for="email">Email:</label>
+            <input
+              id="email"
+              type="email"
+              name="email"
+              placeholder="Your email..."
+              required
+            />
+            <label for="message">Message:</label>
+            <textarea name="message" placeholder="Your message..."></textarea>
+            <div class="button">
+              <div class="space"></div>
+              <button type="submit">Send</button>
+            </div>
+          </form>
+        </div>
+      </section>
+    </main>
+
+    <footer>
       <div class="container">
-        <h2>About Me</h2>
-        <div class="profile-pic"></div>
-        <p>Hey there, my name is <strong>Lawrence Yoon</strong> and I am a <strong>Web Developer</strong>.</p>
-        <p>I have worked with multiple brands, including Sesame Street, Ardell, and China Glaze. Check out my projects and work below!</p>
+        <h3><span>&#169;</span> Website created by Lawrence Yoon</h3>
       </div>
-    </section>
-
-    <section id="projects">
-      <div class="container">
-        <h2>Projects & Work</h2>
-        <div class="project-box">
-          <div class="left-side">
-            <h3><a href="#top-of-page" class="scroll">My Portfolio</a></h3>
-            <div class="icons">
-              <i class="devicon-html5-plain-wordmark colored"></i>
-              <i class="devicon-css3-plain-wordmark colored"></i>
-              <i class="devicon-javascript-plain colored"></i>
-              <i class="devicon-git-plain-wordmark colored"></i>
-            </div>
-            <p>This portfolio was made responsive and minimalistic in purely HTML, CSS, and Javascript.</p>
-          </div>
-          <div class="right-side">
-            <a href="#top-of-page" class="scroll"><img src="imgs/portfolio.png" alt="Portfolio Picture"></a>
-            <div class="buttons">
-              <a href="https://github.com/lawrenceyoon/Portfolio" target="_blank"><button>View Code</button></a>
-            </div>
-          </div>
-        </div>
-        <div class="project-box">
-          <div class="left-side">
-            <h3><a href="https://lawrenceyoon.github.io/Bootstrap-4-Project/" target="_blank">DJ Site & FCC Projects</a></h3>
-            <div class="icons">
-              <i class="devicon-html5-plain-wordmark colored"></i>
-              <i class="devicon-css3-plain-wordmark colored"></i>
-              <i class="devicon-git-plain-wordmark colored"></i>
-              <i class="devicon-codepen-plain-wordmark colored"></i>
-            </div>
-            <p>These projects mainly showcase my HTML & CSS skills, from basics to incorporating frameworks/libraries.</p>
-          </div>
-          <div class="right-side">
-            <a href="https://lawrenceyoon.github.io/Bootstrap-4-Project/" target="_blank"><img src="imgs/dj.png" alt="DJ Website Picture"></a>
-            <div class="buttons">
-              <a href="https://lawrenceyoon.github.io/Bootstrap-4-Project/" target="_blank"><button>Demo</button></a>
-              <a href="https://github.com/lawrenceyoon/Bootstrap-4-Project" target="_blank"><button>View Code</button></a>
-              <a href="https://codepen.io/lyoon" target="_blank"><button>Codepen</button></a>
-            </div>
-          </div>
-        </div>
-        <div class="project-box">
-          <div class="left-side">
-            <h3><a href="https://lawrenceyoon.github.io/Email-Ardell/" target="_blank">Mailchimp/Dotdigital Emails</a></h3>
-            <div class="icons">
-              <i class="devicon-html5-plain-wordmark colored"></i>
-              <i class="devicon-css3-plain-wordmark colored"></i>
-              <i class="devicon-photoshop-line colored"></i>
-              <i class="devicon-illustrator-line colored"></i>
-              <i class="devicon-git-plain-wordmark colored"></i>
-            </div>
-            <p>Previously, I was a lead developer for email sends. This is an example of an email I made working closely with the art and marketing team.</p>
-          </div>
-          <div class="right-side">
-            <a href="https://lawrenceyoon.github.io/Email-Ardell/" target="_blank"><img src="imgs/email-ardell.jpg" alt="Ardell Email Example"></a>
-            <div class="buttons">
-              <a href="https://lawrenceyoon.github.io/Email-Ardell/" target="_blank"><button>Demo</button></a>
-              <a href="https://github.com/lawrenceyoon/Email-Ardell" target="_blank"><button>View Code</button></a>
-            </div>
-          </div>
-        </div>
-        <div class="project-box">
-          <div class="left-side">
-            <h3><a href="https://react-project-pictures.now.sh/" target="_blank">React Pic App</a></h3>
-            <div class="icons">
-              <i class="devicon-html5-plain-wordmark colored"></i>
-              <i class="devicon-css3-plain-wordmark colored"></i>
-              <i class="devicon-sass-original colored"></i>
-              <i class="devicon-react-original-wordmark colored"></i>
-              <i class="devicon-nodejs-plain-wordmark colored"></i>
-              <i class="devicon-npm-original-wordmark colored"></i>
-              <i class="devicon-git-plain-wordmark colored"></i>
-            </div>
-            <p>My React app reaches into Unsplash API and receives a (max 10) list of images.</p>
-          </div>
-          <div class="right-side">
-            <a href="https://react-project-pictures.now.sh/" target="_blank"><img src="imgs/react-pic.png" alt="React App Picture"></a>
-            <div class="buttons">
-              <a href="https://react-project-pictures.now.sh/" target="_blank"><button>Demo</button></a>
-              <a href="https://github.com/lawrenceyoon/React-Project--Pictures" target="_blank"><button>View Code</button></a>
-            </div>
-          </div>
-        </div>
-      </div>
-    </section>
-
-    <section id="contact">
-      <div class="container">
-        <h2>Contact Me</h2>
-        <p>My phone number can be found in my resume, or shoot me a quick email!</p>
-        <form action="https://formspree.io/yoonlawrence@yahoo.com" method="POST">
-          <label for="name">Name:</label>
-          <input id="name" type="text" name="name" placeholder="Your name..." required>
-          <label for="email">Email:</label>
-          <input id="email" type="email" name="email" placeholder="Your email..." required>
-          <label for="message">Message:</label>
-          <textarea name="message" placeholder="Your message..."></textarea>
-          <div class="button">
-            <div class="space"></div>
-            <button type="submit">Send</button>
-          </div>
-        </form>
-      </div>
-    </section>
-  </main>
-
-  <footer>
-    <div class="container">
-      <h3><span>&#169;</span> Website created by Lawrence Yoon</h3>
-      <div class="icons">
-        <a href="https://github.com/lawrenceyoon" target="_blank">
-          <i class="devicon-github-plain"></i>
-        </a>
-        <a href="https://www.linkedin.com/in/lawrenceyoon/" target="_blank">
-          <i class="devicon-linkedin-plain"></i>
-        </a>
-        <a href="https://codepen.io/lyoon" target="_blank">
-          <i class="devicon-codepen-plain"></i>
-        </a>
-      </div>
-    </div>
-  </footer>
-  <!-- Smooth Scroll wide support for older web browsers -->
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/iamdustan-smoothscroll/0.4.0/smoothscroll.min.js"></script>
-  <script src="js/script.js"></script>
-</body>
+    </footer>
+    <!-- Smooth Scroll wide support for older web browsers -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/iamdustan-smoothscroll/0.4.0/smoothscroll.min.js"></script>
+    <script src="js/script.js"></script>
+  </body>
 </html>

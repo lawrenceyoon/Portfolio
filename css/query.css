@@ -1,4 +1,4 @@
-@import url("/css/style.css");
+@import url('/css/style.css');
 @media only screen and (max-width: 1200px) {
   #about .container {
     width: 100%;
@@ -73,6 +73,10 @@
     display: none;
   }
 
+  header .hero {
+    padding-top: 0;
+  }
+
   #about .profile-pic {
     height: 300px;
     width: 300px;
@@ -131,7 +135,6 @@
     font-size: 16px;
   }
 
-
   #contact p {
     width: 80%;
     text-align: center;
@@ -139,6 +142,22 @@
 }
 
 @media only screen and (max-width: 480px) {
+  header .hero {
+    height: 400px;
+  }
+
+  .hero h1 {
+    font-size: 40px;
+  }
+
+  .hero h2 {
+    font-size: 26px;
+  }
+
+  .hero .icons {
+    font-size: 30px;
+  }
+
   #about .container {
     padding: 30px 0;
   }
@@ -150,7 +169,7 @@
 
   #about h2 {
     font-size: 25px;
-    margin: 20px
+    margin: 20px;
   }
 
   #about h2:after {
@@ -244,10 +263,10 @@
     margin: 10px 0 10px 20px;
   }
 
-  #contact input[type="email"] {
+  #contact input[type='email'] {
     margin: 10px 0;
   }
-  
+
   #contact textarea {
     height: 50px;
   }
@@ -259,5 +278,10 @@
   #contact .space {
     width: 30%;
     margin-left: 20px;
+  }
+
+  footer h3 {
+    text-align: center;
+    font-size: 16px;
   }
 }
